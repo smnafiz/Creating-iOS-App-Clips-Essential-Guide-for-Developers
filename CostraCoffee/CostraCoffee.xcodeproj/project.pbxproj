@@ -1,0 +1,1091 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35155F442B62075200B6EC67 /* CostraClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35155F432B62075200B6EC67 /* CostraClipApp.swift */; };
+		35155F462B62075200B6EC67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35155F452B62075200B6EC67 /* ContentView.swift */; };
+		35155F482B62075400B6EC67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35155F472B62075400B6EC67 /* Assets.xcassets */; };
+		35155F4B2B62075400B6EC67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35155F4A2B62075400B6EC67 /* Preview Assets.xcassets */; };
+		35155F4D2B62075400B6EC67 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35155F4C2B62075400B6EC67 /* Persistence.swift */; };
+		35155F502B62075400B6EC67 /* CostraClip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35155F4E2B62075400B6EC67 /* CostraClip.xcdatamodeld */; };
+		35155F5C2B62075500B6EC67 /* CostraClipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35155F5B2B62075500B6EC67 /* CostraClipTests.swift */; };
+		35155F662B62075500B6EC67 /* CostraClipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35155F652B62075500B6EC67 /* CostraClipUITests.swift */; };
+		35155F682B62075500B6EC67 /* CostraClipUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35155F672B62075500B6EC67 /* CostraClipUITestsLaunchTests.swift */; };
+		35155F6B2B62075500B6EC67 /* CostraClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 35155F412B62075200B6EC67 /* CostraClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		35155F762B6210F500B6EC67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3525FAA52B615F4C0011FBA1 /* Assets.xcassets */; };
+		3525FAA22B615F4A0011FBA1 /* CostraCoffeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525FAA12B615F4A0011FBA1 /* CostraCoffeeApp.swift */; };
+		3525FAA42B615F4A0011FBA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525FAA32B615F4A0011FBA1 /* ContentView.swift */; };
+		3525FAA62B615F4C0011FBA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3525FAA52B615F4C0011FBA1 /* Assets.xcassets */; };
+		3525FAA92B615F4C0011FBA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3525FAA82B615F4C0011FBA1 /* Preview Assets.xcassets */; };
+		3525FAAB2B615F4C0011FBA1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525FAAA2B615F4C0011FBA1 /* Persistence.swift */; };
+		3525FAAE2B615F4C0011FBA1 /* CostraCoffee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3525FAAC2B615F4C0011FBA1 /* CostraCoffee.xcdatamodeld */; };
+		3525FAB82B615F4C0011FBA1 /* CostraCoffeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525FAB72B615F4C0011FBA1 /* CostraCoffeeTests.swift */; };
+		3525FAC22B615F4C0011FBA1 /* CostraCoffeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525FAC12B615F4C0011FBA1 /* CostraCoffeeUITests.swift */; };
+		3525FAC42B615F4C0011FBA1 /* CostraCoffeeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525FAC32B615F4C0011FBA1 /* CostraCoffeeUITestsLaunchTests.swift */; };
+		3579BB882B676ED200E85FF5 /* CoffeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D859652B616206002E472D /* CoffeeModel.swift */; };
+		3579BB892B676ED600E85FF5 /* CoffeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D859652B616206002E472D /* CoffeeModel.swift */; };
+		3579BB8A2B676ED600E85FF5 /* CoffeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D859652B616206002E472D /* CoffeeModel.swift */; };
+		35D859662B616206002E472D /* CoffeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D859652B616206002E472D /* CoffeeModel.swift */; };
+		35D859682B61631A002E472D /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D859672B61631A002E472D /* Coffee.swift */; };
+		35E801D42B621CDF005A7862 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D859672B61631A002E472D /* Coffee.swift */; };
+		35E801D82B622C47005A7862 /* CoffeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D859652B616206002E472D /* CoffeeModel.swift */; };
+		35E801DA2B622C48005A7862 /* CoffeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D859652B616206002E472D /* CoffeeModel.swift */; };
+		35E801DB2B622C4A005A7862 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D859672B61631A002E472D /* Coffee.swift */; };
+		35E801DC2B622C4B005A7862 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D859672B61631A002E472D /* Coffee.swift */; };
+		35E801DD2B622C4B005A7862 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D859672B61631A002E472D /* Coffee.swift */; };
+		35E801DE2B622C4B005A7862 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D859672B61631A002E472D /* Coffee.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35155F582B62075500B6EC67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3525FA962B615F4A0011FBA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35155F402B62075200B6EC67;
+			remoteInfo = CostraClip;
+		};
+		35155F622B62075500B6EC67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3525FA962B615F4A0011FBA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35155F402B62075200B6EC67;
+			remoteInfo = CostraClip;
+		};
+		35155F692B62075500B6EC67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3525FA962B615F4A0011FBA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35155F402B62075200B6EC67;
+			remoteInfo = CostraClip;
+		};
+		3525FAB42B615F4C0011FBA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3525FA962B615F4A0011FBA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3525FA9D2B615F4A0011FBA1;
+			remoteInfo = CostraCoffee;
+		};
+		3525FABE2B615F4C0011FBA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3525FA962B615F4A0011FBA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3525FA9D2B615F4A0011FBA1;
+			remoteInfo = CostraCoffee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		35155F6C2B62075500B6EC67 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				35155F6B2B62075500B6EC67 /* CostraClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		35155F412B62075200B6EC67 /* CostraClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CostraClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35155F432B62075200B6EC67 /* CostraClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostraClipApp.swift; sourceTree = "<group>"; };
+		35155F452B62075200B6EC67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		35155F472B62075400B6EC67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35155F4A2B62075400B6EC67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35155F4C2B62075400B6EC67 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		35155F4F2B62075400B6EC67 /* CostraClip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CostraClip.xcdatamodel; sourceTree = "<group>"; };
+		35155F512B62075400B6EC67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35155F522B62075500B6EC67 /* CostraClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CostraClip.entitlements; sourceTree = "<group>"; };
+		35155F572B62075500B6EC67 /* CostraClipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CostraClipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35155F5B2B62075500B6EC67 /* CostraClipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostraClipTests.swift; sourceTree = "<group>"; };
+		35155F612B62075500B6EC67 /* CostraClipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CostraClipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35155F652B62075500B6EC67 /* CostraClipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostraClipUITests.swift; sourceTree = "<group>"; };
+		35155F672B62075500B6EC67 /* CostraClipUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostraClipUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3525FA9E2B615F4A0011FBA1 /* CostraCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CostraCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3525FAA12B615F4A0011FBA1 /* CostraCoffeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostraCoffeeApp.swift; sourceTree = "<group>"; };
+		3525FAA32B615F4A0011FBA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3525FAA52B615F4C0011FBA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3525FAA82B615F4C0011FBA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3525FAAA2B615F4C0011FBA1 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		3525FAAD2B615F4C0011FBA1 /* CostraCoffee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CostraCoffee.xcdatamodel; sourceTree = "<group>"; };
+		3525FAB32B615F4C0011FBA1 /* CostraCoffeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CostraCoffeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3525FAB72B615F4C0011FBA1 /* CostraCoffeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostraCoffeeTests.swift; sourceTree = "<group>"; };
+		3525FABD2B615F4C0011FBA1 /* CostraCoffeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CostraCoffeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3525FAC12B615F4C0011FBA1 /* CostraCoffeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostraCoffeeUITests.swift; sourceTree = "<group>"; };
+		3525FAC32B615F4C0011FBA1 /* CostraCoffeeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostraCoffeeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		355EF3672B773DCC00B0C4F7 /* CostraCoffee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CostraCoffee.entitlements; sourceTree = "<group>"; };
+		35D859652B616206002E472D /* CoffeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeModel.swift; sourceTree = "<group>"; };
+		35D859672B61631A002E472D /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35155F3E2B62075200B6EC67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35155F542B62075500B6EC67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35155F5E2B62075500B6EC67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3525FA9B2B615F4A0011FBA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3525FAB02B615F4C0011FBA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3525FABA2B615F4C0011FBA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35155F422B62075200B6EC67 /* CostraClip */ = {
+			isa = PBXGroup;
+			children = (
+				35155F432B62075200B6EC67 /* CostraClipApp.swift */,
+				35155F452B62075200B6EC67 /* ContentView.swift */,
+				35155F472B62075400B6EC67 /* Assets.xcassets */,
+				35155F4C2B62075400B6EC67 /* Persistence.swift */,
+				35155F512B62075400B6EC67 /* Info.plist */,
+				35155F522B62075500B6EC67 /* CostraClip.entitlements */,
+				35155F4E2B62075400B6EC67 /* CostraClip.xcdatamodeld */,
+				35155F492B62075400B6EC67 /* Preview Content */,
+			);
+			path = CostraClip;
+			sourceTree = "<group>";
+		};
+		35155F492B62075400B6EC67 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				35155F4A2B62075400B6EC67 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		35155F5A2B62075500B6EC67 /* CostraClipTests */ = {
+			isa = PBXGroup;
+			children = (
+				35155F5B2B62075500B6EC67 /* CostraClipTests.swift */,
+			);
+			path = CostraClipTests;
+			sourceTree = "<group>";
+		};
+		35155F642B62075500B6EC67 /* CostraClipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35155F652B62075500B6EC67 /* CostraClipUITests.swift */,
+				35155F672B62075500B6EC67 /* CostraClipUITestsLaunchTests.swift */,
+			);
+			path = CostraClipUITests;
+			sourceTree = "<group>";
+		};
+		3525FA952B615F4A0011FBA1 = {
+			isa = PBXGroup;
+			children = (
+				3525FAA02B615F4A0011FBA1 /* CostraCoffee */,
+				3525FAB62B615F4C0011FBA1 /* CostraCoffeeTests */,
+				3525FAC02B615F4C0011FBA1 /* CostraCoffeeUITests */,
+				35155F422B62075200B6EC67 /* CostraClip */,
+				35155F5A2B62075500B6EC67 /* CostraClipTests */,
+				35155F642B62075500B6EC67 /* CostraClipUITests */,
+				3525FA9F2B615F4A0011FBA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3525FA9F2B615F4A0011FBA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3525FA9E2B615F4A0011FBA1 /* CostraCoffee.app */,
+				3525FAB32B615F4C0011FBA1 /* CostraCoffeeTests.xctest */,
+				3525FABD2B615F4C0011FBA1 /* CostraCoffeeUITests.xctest */,
+				35155F412B62075200B6EC67 /* CostraClip.app */,
+				35155F572B62075500B6EC67 /* CostraClipTests.xctest */,
+				35155F612B62075500B6EC67 /* CostraClipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3525FAA02B615F4A0011FBA1 /* CostraCoffee */ = {
+			isa = PBXGroup;
+			children = (
+				355EF3672B773DCC00B0C4F7 /* CostraCoffee.entitlements */,
+				3525FAA12B615F4A0011FBA1 /* CostraCoffeeApp.swift */,
+				3525FAA32B615F4A0011FBA1 /* ContentView.swift */,
+				3525FAA52B615F4C0011FBA1 /* Assets.xcassets */,
+				3525FAAA2B615F4C0011FBA1 /* Persistence.swift */,
+				3525FAAC2B615F4C0011FBA1 /* CostraCoffee.xcdatamodeld */,
+				3525FAA72B615F4C0011FBA1 /* Preview Content */,
+				35D859652B616206002E472D /* CoffeeModel.swift */,
+				35D859672B61631A002E472D /* Coffee.swift */,
+			);
+			path = CostraCoffee;
+			sourceTree = "<group>";
+		};
+		3525FAA72B615F4C0011FBA1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3525FAA82B615F4C0011FBA1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3525FAB62B615F4C0011FBA1 /* CostraCoffeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3525FAB72B615F4C0011FBA1 /* CostraCoffeeTests.swift */,
+			);
+			path = CostraCoffeeTests;
+			sourceTree = "<group>";
+		};
+		3525FAC02B615F4C0011FBA1 /* CostraCoffeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3525FAC12B615F4C0011FBA1 /* CostraCoffeeUITests.swift */,
+				3525FAC32B615F4C0011FBA1 /* CostraCoffeeUITestsLaunchTests.swift */,
+			);
+			path = CostraCoffeeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35155F402B62075200B6EC67 /* CostraClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35155F732B62075500B6EC67 /* Build configuration list for PBXNativeTarget "CostraClip" */;
+			buildPhases = (
+				35155F3D2B62075200B6EC67 /* Sources */,
+				35155F3E2B62075200B6EC67 /* Frameworks */,
+				35155F3F2B62075200B6EC67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CostraClip;
+			productName = CostraClip;
+			productReference = 35155F412B62075200B6EC67 /* CostraClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
+		35155F562B62075500B6EC67 /* CostraClipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35155F742B62075500B6EC67 /* Build configuration list for PBXNativeTarget "CostraClipTests" */;
+			buildPhases = (
+				35155F532B62075500B6EC67 /* Sources */,
+				35155F542B62075500B6EC67 /* Frameworks */,
+				35155F552B62075500B6EC67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35155F592B62075500B6EC67 /* PBXTargetDependency */,
+			);
+			name = CostraClipTests;
+			productName = CostraClipTests;
+			productReference = 35155F572B62075500B6EC67 /* CostraClipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35155F602B62075500B6EC67 /* CostraClipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35155F752B62075500B6EC67 /* Build configuration list for PBXNativeTarget "CostraClipUITests" */;
+			buildPhases = (
+				35155F5D2B62075500B6EC67 /* Sources */,
+				35155F5E2B62075500B6EC67 /* Frameworks */,
+				35155F5F2B62075500B6EC67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35155F632B62075500B6EC67 /* PBXTargetDependency */,
+			);
+			name = CostraClipUITests;
+			productName = CostraClipUITests;
+			productReference = 35155F612B62075500B6EC67 /* CostraClipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3525FA9D2B615F4A0011FBA1 /* CostraCoffee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3525FAC72B615F4C0011FBA1 /* Build configuration list for PBXNativeTarget "CostraCoffee" */;
+			buildPhases = (
+				3525FA9A2B615F4A0011FBA1 /* Sources */,
+				3525FA9B2B615F4A0011FBA1 /* Frameworks */,
+				3525FA9C2B615F4A0011FBA1 /* Resources */,
+				35155F6C2B62075500B6EC67 /* Embed App Clips */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35155F6A2B62075500B6EC67 /* PBXTargetDependency */,
+			);
+			name = CostraCoffee;
+			productName = CostraCoffee;
+			productReference = 3525FA9E2B615F4A0011FBA1 /* CostraCoffee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3525FAB22B615F4C0011FBA1 /* CostraCoffeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3525FACA2B615F4C0011FBA1 /* Build configuration list for PBXNativeTarget "CostraCoffeeTests" */;
+			buildPhases = (
+				3525FAAF2B615F4C0011FBA1 /* Sources */,
+				3525FAB02B615F4C0011FBA1 /* Frameworks */,
+				3525FAB12B615F4C0011FBA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3525FAB52B615F4C0011FBA1 /* PBXTargetDependency */,
+			);
+			name = CostraCoffeeTests;
+			productName = CostraCoffeeTests;
+			productReference = 3525FAB32B615F4C0011FBA1 /* CostraCoffeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3525FABC2B615F4C0011FBA1 /* CostraCoffeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3525FACD2B615F4C0011FBA1 /* Build configuration list for PBXNativeTarget "CostraCoffeeUITests" */;
+			buildPhases = (
+				3525FAB92B615F4C0011FBA1 /* Sources */,
+				3525FABA2B615F4C0011FBA1 /* Frameworks */,
+				3525FABB2B615F4C0011FBA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3525FABF2B615F4C0011FBA1 /* PBXTargetDependency */,
+			);
+			name = CostraCoffeeUITests;
+			productName = CostraCoffeeUITests;
+			productReference = 3525FABD2B615F4C0011FBA1 /* CostraCoffeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3525FA962B615F4A0011FBA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					35155F402B62075200B6EC67 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					35155F562B62075500B6EC67 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 35155F402B62075200B6EC67;
+					};
+					35155F602B62075500B6EC67 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 35155F402B62075200B6EC67;
+					};
+					3525FA9D2B615F4A0011FBA1 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					3525FAB22B615F4C0011FBA1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 3525FA9D2B615F4A0011FBA1;
+					};
+					3525FABC2B615F4C0011FBA1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 3525FA9D2B615F4A0011FBA1;
+					};
+				};
+			};
+			buildConfigurationList = 3525FA992B615F4A0011FBA1 /* Build configuration list for PBXProject "CostraCoffee" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3525FA952B615F4A0011FBA1;
+			productRefGroup = 3525FA9F2B615F4A0011FBA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3525FA9D2B615F4A0011FBA1 /* CostraCoffee */,
+				3525FAB22B615F4C0011FBA1 /* CostraCoffeeTests */,
+				3525FABC2B615F4C0011FBA1 /* CostraCoffeeUITests */,
+				35155F402B62075200B6EC67 /* CostraClip */,
+				35155F562B62075500B6EC67 /* CostraClipTests */,
+				35155F602B62075500B6EC67 /* CostraClipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35155F3F2B62075200B6EC67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35155F4B2B62075400B6EC67 /* Preview Assets.xcassets in Resources */,
+				35155F762B6210F500B6EC67 /* Assets.xcassets in Resources */,
+				35155F482B62075400B6EC67 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35155F552B62075500B6EC67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35155F5F2B62075500B6EC67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3525FA9C2B615F4A0011FBA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3525FAA92B615F4C0011FBA1 /* Preview Assets.xcassets in Resources */,
+				3525FAA62B615F4C0011FBA1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3525FAB12B615F4C0011FBA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3525FABB2B615F4C0011FBA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35155F3D2B62075200B6EC67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35155F4D2B62075400B6EC67 /* Persistence.swift in Sources */,
+				35155F462B62075200B6EC67 /* ContentView.swift in Sources */,
+				35155F442B62075200B6EC67 /* CostraClipApp.swift in Sources */,
+				35155F502B62075400B6EC67 /* CostraClip.xcdatamodeld in Sources */,
+				35E801D42B621CDF005A7862 /* Coffee.swift in Sources */,
+				3579BB892B676ED600E85FF5 /* CoffeeModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35155F532B62075500B6EC67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35155F5C2B62075500B6EC67 /* CostraClipTests.swift in Sources */,
+				35E801DD2B622C4B005A7862 /* Coffee.swift in Sources */,
+				3579BB8A2B676ED600E85FF5 /* CoffeeModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35155F5D2B62075500B6EC67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35155F682B62075500B6EC67 /* CostraClipUITestsLaunchTests.swift in Sources */,
+				35155F662B62075500B6EC67 /* CostraClipUITests.swift in Sources */,
+				35E801DA2B622C48005A7862 /* CoffeeModel.swift in Sources */,
+				35E801DE2B622C4B005A7862 /* Coffee.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3525FA9A2B615F4A0011FBA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3525FAAB2B615F4C0011FBA1 /* Persistence.swift in Sources */,
+				35D859662B616206002E472D /* CoffeeModel.swift in Sources */,
+				3525FAAE2B615F4C0011FBA1 /* CostraCoffee.xcdatamodeld in Sources */,
+				3525FAA42B615F4A0011FBA1 /* ContentView.swift in Sources */,
+				3525FAA22B615F4A0011FBA1 /* CostraCoffeeApp.swift in Sources */,
+				35D859682B61631A002E472D /* Coffee.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3525FAAF2B615F4C0011FBA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3525FAB82B615F4C0011FBA1 /* CostraCoffeeTests.swift in Sources */,
+				35E801DB2B622C4A005A7862 /* Coffee.swift in Sources */,
+				3579BB882B676ED200E85FF5 /* CoffeeModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3525FAB92B615F4C0011FBA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3525FAC42B615F4C0011FBA1 /* CostraCoffeeUITestsLaunchTests.swift in Sources */,
+				3525FAC22B615F4C0011FBA1 /* CostraCoffeeUITests.swift in Sources */,
+				35E801D82B622C47005A7862 /* CoffeeModel.swift in Sources */,
+				35E801DC2B622C4B005A7862 /* Coffee.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35155F592B62075500B6EC67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35155F402B62075200B6EC67 /* CostraClip */;
+			targetProxy = 35155F582B62075500B6EC67 /* PBXContainerItemProxy */;
+		};
+		35155F632B62075500B6EC67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35155F402B62075200B6EC67 /* CostraClip */;
+			targetProxy = 35155F622B62075500B6EC67 /* PBXContainerItemProxy */;
+		};
+		35155F6A2B62075500B6EC67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35155F402B62075200B6EC67 /* CostraClip */;
+			targetProxy = 35155F692B62075500B6EC67 /* PBXContainerItemProxy */;
+		};
+		3525FAB52B615F4C0011FBA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3525FA9D2B615F4A0011FBA1 /* CostraCoffee */;
+			targetProxy = 3525FAB42B615F4C0011FBA1 /* PBXContainerItemProxy */;
+		};
+		3525FABF2B615F4C0011FBA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3525FA9D2B615F4A0011FBA1 /* CostraCoffee */;
+			targetProxy = 3525FABE2B615F4C0011FBA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		35155F6D2B62075500B6EC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CostraClip/CostraClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CostraClip/Preview Content\"";
+				DEVELOPMENT_TEAM = 8H8FM59XU5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CostraClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CostraCoffee;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugfender.costracoffee.CostraCoffee.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35155F6E2B62075500B6EC67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CostraClip/CostraClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CostraClip/Preview Content\"";
+				DEVELOPMENT_TEAM = 8H8FM59XU5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CostraClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CostraCoffee;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugfender.costracoffee.CostraCoffee.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		35155F6F2B62075500B6EC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8H8FM59XU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugfender.costracoffee.CostraCoffee.CostraClipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CostraClip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CostraClip";
+			};
+			name = Debug;
+		};
+		35155F702B62075500B6EC67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8H8FM59XU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugfender.costracoffee.CostraCoffee.CostraClipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CostraClip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CostraClip";
+			};
+			name = Release;
+		};
+		35155F712B62075500B6EC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8H8FM59XU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugfender.costracoffee.CostraCoffee.CostraClipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CostraClip;
+			};
+			name = Debug;
+		};
+		35155F722B62075500B6EC67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8H8FM59XU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugfender.costracoffee.CostraCoffee.CostraClipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CostraClip;
+			};
+			name = Release;
+		};
+		3525FAC52B615F4C0011FBA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3525FAC62B615F4C0011FBA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3525FAC82B615F4C0011FBA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CostraCoffee/CostraCoffee.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CostraCoffee/Preview Content\"";
+				DEVELOPMENT_TEAM = 8H8FM59XU5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugfender.costracoffee.CostraCoffee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited) APPCLIP";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3525FAC92B615F4C0011FBA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CostraCoffee/CostraCoffee.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CostraCoffee/Preview Content\"";
+				DEVELOPMENT_TEAM = 8H8FM59XU5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugfender.costracoffee.CostraCoffee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = APPCLIP;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3525FACB2B615F4C0011FBA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8H8FM59XU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugfender.costracoffee.CostraCoffeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CostraCoffee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CostraCoffee";
+			};
+			name = Debug;
+		};
+		3525FACC2B615F4C0011FBA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8H8FM59XU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugfender.costracoffee.CostraCoffeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CostraCoffee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CostraCoffee";
+			};
+			name = Release;
+		};
+		3525FACE2B615F4C0011FBA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8H8FM59XU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugfender.costracoffee.CostraCoffeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CostraCoffee;
+			};
+			name = Debug;
+		};
+		3525FACF2B615F4C0011FBA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8H8FM59XU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugfender.costracoffee.CostraCoffeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CostraCoffee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35155F732B62075500B6EC67 /* Build configuration list for PBXNativeTarget "CostraClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35155F6D2B62075500B6EC67 /* Debug */,
+				35155F6E2B62075500B6EC67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35155F742B62075500B6EC67 /* Build configuration list for PBXNativeTarget "CostraClipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35155F6F2B62075500B6EC67 /* Debug */,
+				35155F702B62075500B6EC67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35155F752B62075500B6EC67 /* Build configuration list for PBXNativeTarget "CostraClipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35155F712B62075500B6EC67 /* Debug */,
+				35155F722B62075500B6EC67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3525FA992B615F4A0011FBA1 /* Build configuration list for PBXProject "CostraCoffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3525FAC52B615F4C0011FBA1 /* Debug */,
+				3525FAC62B615F4C0011FBA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3525FAC72B615F4C0011FBA1 /* Build configuration list for PBXNativeTarget "CostraCoffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3525FAC82B615F4C0011FBA1 /* Debug */,
+				3525FAC92B615F4C0011FBA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3525FACA2B615F4C0011FBA1 /* Build configuration list for PBXNativeTarget "CostraCoffeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3525FACB2B615F4C0011FBA1 /* Debug */,
+				3525FACC2B615F4C0011FBA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3525FACD2B615F4C0011FBA1 /* Build configuration list for PBXNativeTarget "CostraCoffeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3525FACE2B615F4C0011FBA1 /* Debug */,
+				3525FACF2B615F4C0011FBA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		35155F4E2B62075400B6EC67 /* CostraClip.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				35155F4F2B62075400B6EC67 /* CostraClip.xcdatamodel */,
+			);
+			currentVersion = 35155F4F2B62075400B6EC67 /* CostraClip.xcdatamodel */;
+			path = CostraClip.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		3525FAAC2B615F4C0011FBA1 /* CostraCoffee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3525FAAD2B615F4C0011FBA1 /* CostraCoffee.xcdatamodel */,
+			);
+			currentVersion = 3525FAAD2B615F4C0011FBA1 /* CostraCoffee.xcdatamodel */;
+			path = CostraCoffee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3525FA962B615F4A0011FBA1 /* Project object */;
+}
